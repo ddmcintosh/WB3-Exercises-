@@ -41,6 +41,15 @@ function displayAddNumbers(num1, num2) {
 displayAddNumbers(5, 5);
 
 
+function displayAddNumbers(num1, num2) {
+    let add = num1 + num2
+    console.log(num1 + "+" + num2 + "=" + add ) 
+}
+displayAddNumbers(6, 6);
+
+
+
+
 function displayReceipt(totalDue, amountPaid ) {
     let message = " The total due is " + totalDue + ", and the amount paid is " + amountPaid + " and the change due is $3 " 
     console.log(message);
