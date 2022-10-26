@@ -24,6 +24,8 @@ console.log("The button was clicked");
  let dateString = document.getElementById(dateField.value);
  let date = new Date(dateString);
  console.log(new Date(dateString));
+ let output = document.getElementById("output");
+ output.innerHTML = new Date(dateString);
 
 
 }
