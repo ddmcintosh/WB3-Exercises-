@@ -1,4 +1,3 @@
-// document has strict laws
 "use strict"
 
 //when the window loads this will be initated
@@ -29,8 +28,3 @@ console.log("The button was clicked");
 
 
 }
-
-
-
-
-
